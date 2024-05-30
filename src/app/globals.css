@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.round {
+  @apply rounded-xl;
+}
+.bg {
+  @apply bg-default-100 dark:bg-default-50 hover:bg-default-300/50;
+}
+
+.frame {
+  @apply border border-black/20 dark:border-white/20;
+}
