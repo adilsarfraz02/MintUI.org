@@ -12,7 +12,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <title>Mint Ui | </title>
+      <title>Mint UI | React Beautiful Components Libary</title>
       <body className={inter.className}>
         <Providers>
           <Nav />
