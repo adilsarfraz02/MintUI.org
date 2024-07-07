@@ -70,7 +70,7 @@ const Nav = () => {
         </NavbarMenuItem>
         {NavLinks.map((link, i) => (
           <NavbarMenuItem key={i}>
-            <Link href={link.path} className="text-foreground-800">
+            <Link href={link.path} className="text-foreground-800 !z-[1000]">
               {link.title}
             </Link>
           </NavbarMenuItem>
