@@ -11,7 +11,7 @@ export const Hero = () => {
       <BackgroundCellCore />
       <Link
         href="/components"
-        className="border-1.5 transition-all duration-250 gap-3 group dark:border-default-50 border-black text-default-50 mb-1 cursor-pointer rounded-3xl px-4 py-2 flex justify-between w-fit items-center !z-50 dark:bg-white bg-black"
+        className="border-1.5 transition-all duration-250 gap-3 group dark:border-default-50 border-black text-default-50 mb-1 cursor-pointer rounded-3xl px-4 py-2 flex justify-between w-fit items-center !z-20 dark:bg-white bg-black"
       >
         <span> Explore All Componets</span>{" "}
         <span className="px-3 py-1 rounded-2xl dark:bg-black bg-white text-black dark:text-white translate-x-1 group-hover:translate-x-2 transition-all ease-in-out">
