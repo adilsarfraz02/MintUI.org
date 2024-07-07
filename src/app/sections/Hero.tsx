@@ -18,7 +18,7 @@ export const Hero = () => {
           <FaArrowRightLong />
         </span>
       </Link>
-      <div className="relative z-50 mt-24 pointer-events-none select-none">
+      <div className="relative z-20 mt-24 pointer-events-none select-none">
         <h1 className="max-md:text-4xl max-sm:text-4xl text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b dark:from-neutral-100 from-neutral-600 to-zinc-900 dark:to-neutral-400 pointer-events-none">
           Animated Tailwind CSS &<br />
           framer motion UI Library
